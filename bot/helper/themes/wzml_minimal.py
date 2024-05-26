@@ -2,8 +2,8 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = 'owner'
-    ST_BN1_URL = 'https://t.me/Franited'
+    ST_BN1_NAME = 'click here'
+    ST_BN1_URL = 'brunogoyal.com'
     ST_BN2_NAME = 'Updates'
     ST_BN2_URL = '@Franited'
     ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive.</i>
