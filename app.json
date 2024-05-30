@@ -7,6 +7,26 @@
     "BOT_TOKEN": {
       "description": "The token for your Telegram bot from BotFather",
       "required": true
+    },
+    "DATABASE_URL": {
+      "description": "URL for the database (e.g., PostgreSQL, MySQL)",
+      "required": true
+    },
+    "API_ID": {
+      "description": "API ID obtained from the Telegram API",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "API hash obtained from the Telegram API",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Telegram ID of the bot owner",
+      "required": true
+    },
+    "STRING_SESSION": {
+      "description": "String session for the bot (optional)",
+      "required": false
     }
   },
   "buildpacks": [
