@@ -24,6 +24,18 @@
       "description": "Telegram ID of the bot owner",
       "required": true
     },
+    "HEROKU_APP_NAME": {
+      "description": "The name of your Heroku app",
+      "required": true
+    },
+    "HEROKU_EMAIL": {
+      "description": "Your email address for Heroku",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "Your Heroku API key",
+      "required": true
+    },
     "STRING_SESSION": {
       "description": "String session for the bot (optional)",
       "required": false
