@@ -1,0 +1,17 @@
+{
+  "name": "Leech Bot",
+  "description": "A Telegram bot to leech content from provided links.",
+  "repository": "https://github.com/chamanprahs/Bruno",
+  "keywords": ["telegram", "bot", "leech"],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "The token for your Telegram bot from BotFather",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
