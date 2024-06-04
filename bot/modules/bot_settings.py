@@ -240,7 +240,9 @@ async def load_config():
     RSS_DELAY = environ.get('RSS_DELAY', '')
     RSS_DELAY = 900 if len(RSS_DELAY) == 0 else int(RSS_DELAY)
 
-    CMD_SUFFIX = environ.get('CMD_SUFFIX', '')
+    CMD_PREFIX = os.environ.get('CMD_PREFIX', '')
+
+    CMD_SUFFIX = os.environ.get('CMD_SUFFIX', '')
 
     USER_SESSION_STRING = environ.get('USER_SESSION_STRING', '')
 
